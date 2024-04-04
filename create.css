@@ -1,0 +1,136 @@
+.appointText h2, .appointText h3{
+    color:#222;
+  }
+  
+  .compText h2, .compText h3{
+    color:#fff;
+    padding-left:13%;
+  }
+  
+  .designText h2, .designText h3 {
+      color:#fff;
+      padding-right: 13%;
+  }
+  
+  .doubleText h2{
+    color:#fff;
+  }
+  
+  .doubleText  h2.headlineM{
+    color:#222;
+  }
+  a.thickbox:focus, a.thickbox:hover{
+    text-decoration:underline;
+  }
+  a:focus p{
+    outline:1.5px #aaa solid;
+    outline-offset:-3px;
+  }
+  
+  a:focus p.visitStore{
+    outline:1.5px #222 solid;
+    outline-offset:-3px;
+  }
+  .newWin{
+    font-size:1em;
+    color:#666;
+  }
+
+  style
+  .doubleTextNoMods {left:0;right:0;margin:auto;top:50%;text-align:center;transform:translateY(-50%);}
+  .noModsBtn {background-color:#fff;width:16%;text-align:center;margin:3% auto;padding:1.5% 2.5%;}
+
+  .heroText {top:60%;left:0;right:0;margin:auto;width:43.45%;}
+  .appointText {text-align:center;top:50%;transform: translateY(-50%);left:0;right:0;}
+  .makeAppoint {color:#fff;background-color:#222;width:14%;padding:1.25%;margin:2% auto 0 ;}
+  .compText {width:44%;color:#fff;top:20%;right:0;}
+  .compText p {padding-left:13%;}
+  .moodBoardText {margin-top:16%;margin-bottom:7%;}
+  .compP {margin-bottom:7%;position:relative;}
+  .compP::after {content:"";border-bottom:1px solid #646464;position:absolute;width:50%;bottom:-100%;left:13%;}
+  .designText {width:43.7%;color:#fff;top:20%;left:0;text-align:right;}
+  .designText p {padding-right:13%;}
+  .desiP {margin-bottom:7%;position:relative;}
+  .desiP::after {content:"";border-bottom:1px solid #646464;position:absolute;width:50%;right:13%;}
+  .desiP1::after{bottom:-50%;}
+  .desiP2::after{bottom:-100%;}
+  .doubleText {left:0;right:0;margin:auto;top:16%;text-align:center;}
+  .designBtn {margin:auto;padding:2.5% 5%;position:absolute;top:35%;left:0;right:0;text-align:center;}
+  .learnMore {background-color:#043333;color:#fff;width:16%;}
+  .visitStore {background-color:#fff;width:31%;}
+
+/*---------------BREAKOUT---------------*/
+#ModeB .fullWidth .width1008Center {margin: 0 auto !important;width: 100% !important;}
+#ModeB + #footerContainer {float: none !important;margin: -1px auto 30px !important;}
+#bodyWrap {padding: 0;}
+#topNavContainer {border:none;}
+.smallWrapper, .center1008 {width: 1008px;margin: 0 auto;}
+.fullWidthWrapTop {border-top: 2px solid black;}
+#topNavWrap {background: transparent;}
+#pageWrap, .fullWidth, .table {width: 100%;max-width:1540px;}
+#normalFooter {margin: 0 auto;float: none;}
+.content {width:100%;float:none;}
+#heroMargin {margin-top: -15px !important;border-top:2px solid black;}
+#cmpr_querybuilder {margin-bottom:-15px;}
+/*---------------BREAKOUT---------------*/
+
+.fullDiv {width:100%;min-width: 1024px;max-width:1680px;position:relative;overflow:hidden;}
+.fullDiv a {color: #222;text-decoration:none;}
+.marginDiv {width:95%;min-width: 964px;max-width:1680px;position:relative;overflow:hidden;margin:2.5% auto;}
+.marginDiv a {color: #222;}
+.divMargins {margin-bottom: 2% !important;}
+.fullImg {width:100%;max-width:1680px;}
+.textDiv {position:absolute;}
+.cmsArrowR {border-width:.4vw;}
+.whtArrw {border-left-color: white;}
+.ctaMargin {margin: 1vw 0;}
+.subMargin {margin: 1vw 0 0;}
+.disNone {display:none;}
+.ctaText {margin:1vw 0;text-transform: uppercase;color:rgba(34,34,34,.7);transition: color 0.3s ease;}
+.ctaText:hover {color:rgba(34,34,34,1);}
+
+.seoCopy{width:1008px; margin:0 auto;font: normal 12px/15px Helvetica,Arial,sans-serif;color: #333;padding: 15px 0;z-index: 5;height: auto;border-top: 1px solid #e6e7e9;}
+
+/*FONT SIZES*/
+.headlineXL {font-size: calc(56px + (72 - 56) * (100vw - 1024px) / (1680 - 1024));line-height:calc(52px + (68 - 52) * (100vw - 1024px) / (1680 - 1024));letter-spacing:-.15vw;}
+.headlineL {font-size: calc(40px + (56 - 40) * (100vw - 1024px) / (1680 - 1024));line-height:calc(40px + (52 - 40) * (100vw - 1024px) / (1680 - 1024));letter-spacing:-.05vw;word-spacing:-.2vw;}
+.headlineM {font-size: calc(32px + (40 - 32) * (100vw - 1024px) / (1680 - 1024));line-height:calc(36px + (40 - 36) * (100vw - 1024px) / (1680 - 1024));letter-spacing:-.1vw;word-spacing:-.1vw;}
+.headlineS {font-size: calc(24px + (32 - 24) * (100vw - 1024px) / (1680 - 1024));line-height:calc(28px + (36 - 28) * (100vw - 1024px) / (1680 - 1024));}
+.copyXL {font-size: calc(24px + (32 - 24) * (100vw - 1024px) / (1680 - 1024));line-height:calc(28px + (36 - 28) * (100vw - 1024px) / (1680 - 1024));}
+.copyL {font-size: calc(20px + (24 - 20) * (100vw - 1024px) / (1680 - 1024));line-height:calc(24px + (28 - 24) * (100vw - 1024px) / (1680 - 1024));letter-spacing:-.05vw;}
+.copyM {font-size: calc(16px + (20 - 16) * (100vw - 1024px) / (1680 - 1024));line-height:calc(20px + (24 - 20) * (100vw - 1024px) / (1680 - 1024));}
+.copyS {font-size: calc(14px + (16 - 14) * (100vw - 1024px) / (1680 - 1024));line-height:calc(20px + (20 - 20) * (100vw - 1024px) / (1680 - 1024));}
+.copyXS {font-size: calc(12px + (14 - 12) * (100vw - 1024px) / (1540 - 1024));line-height: calc(16px + (20 - 16) * (100vw - 1024px) / (1540 - 1024));}
+.supS {font-size:.74vw;}
+/*FONT SIZES*/
+
+/*--- 1024px ---*/
+@media only screen and (max-width: 1024px) {
+  .headlineXL {font-size:56px;line-height:52px;letter-spacing:-1.54px;}
+  .headlineL {font-size:40px;line-height:40px;}
+  .headlineM {font-size:32px;line-height:36px;letter-spacing:-1.02px;}
+  .headlineS {font-size:24px;line-height:28px;}
+  .copyXL {font-size:24px;line-height:28px;}
+  .copyL {font-size:20px;line-height:24px;letter-spacing:-.84px;}
+  .copyM {font-size:16px;line-height:20px;}
+  .copyS {font-size:14px;line-height:20px;}
+
+  .badge {height:61.44px;width:61.44px;}
+  .handle:after {width: 51.20px;height: 51.20px;}
+}
+
+@media only screen and (min-width: 1680px) {
+  .headlineXL {font-size:72px;line-height:68px;letter-spacing:-2.52px;}
+  .headlineL {font-size:56px;line-height:52px;}
+  .headlineM {font-size:40px;line-height:40px;letter-spacing:-1.68px;}
+  .headlineS {font-size:32px;line-height:36px;}
+  .copyXL {font-size:32px;line-height:36px;}
+  .copyL {font-size:24px;line-height:28px;letter-spacing:-.51px;}
+  .copyM {font-size:20px;line-height:24px;}
+  .copyS {font-size:16px;line-height:20px;}
+
+  .badge {height:100.80px;width:100.80px;}
+  .handle:after {width: 84.00px;height: 84.00px;}
+}
+
+
